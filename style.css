@@ -1,0 +1,100 @@
+.navbar .container-fluid img{
+    width: 100px;
+    margin:0 0 0 135px;
+}
+
+  div #navbarSupportedContent {
+   
+    margin: 0px 70px 0 130px;
+}
+a.nav-link {
+    margin: 0 0 0 15px;
+}
+/* Slider Section */
+    #slider{
+        margin: 50px 0 0 0;
+        z-index: -1;
+    }
+/* About Us */
+/* #About{
+    text-align: center;
+} */
+#About p{
+    margin: 50px 73px 0px 130px;
+}
+
+/* section A */
+
+#indianFood, #chineseFood, #italianFood, #About h3{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.foods .container {
+    margin: 50px 0 0 130px;
+    
+        box-shadow:3px 5px 20px 5px rgb(242 150 10);
+      
+}
+/* #indianFood, #chineseFood, #italianFood img{
+    height: 200px;
+    width: 150px;
+} */
+
+  /* Footer Section */
+  #footer{
+      margin: 50px 0 0 0;
+      padding: 40px 0 0 0;
+      color: #380606;
+      background-color: #f1940294;
+      display: grid;
+      grid-template-columns: repeat(4,300px);
+    grid-gap: 10px;
+  }
+  .about{
+    padding: 0 0 0 130px  !important;
+  }
+  .contact{
+      padding: 0 0 100px 0;
+  }
+  #footer div{
+    padding: 0 0 0 80px;
+  }
+  .copyright{
+      text-align: center;
+    background-color:#f1940294;
+    color:#380606;
+    padding: 80px 0 30px 0;
+  }
+  .top-categories li, .important-links li{
+    list-style-type: none;
+  }
+
+
+  /* mobile CSS */
+  @media only screen and (max-width: 556px) {
+    body {
+     width:fit-content;
+    }
+    #indianFood, #chineseFood, #italianFood {
+        width: 35%;
+        text-align: center;
+        padding: 0 0 0 50px;
+        margin: 0 0 0 220px;
+    }
+    #indianFood h3, #chineseFood h3, #italianFood h3{
+        padding: 80px 0 30px 19rem;
+    }
+    .col-sm {
+        padding: 30px 30px 0 35px;
+    }
+    #About p {
+        margin: 50px 200px 0px 200px;
+    }
+    form.d-flex {
+        
+        left: 27rem;
+        position: absolute;
+        top: 40px;
+        width: 450px;
+    }
+  }
